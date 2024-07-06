@@ -47,12 +47,12 @@ function sleep(ms) {
 // Function to run the script after a delay
 async function runScript() {
   // Sleep for 10 seconds to load all the contents
-  await sleep(3500);
+  await sleep(5500);
 
   // Run the function to hide the first three targeted divs
   hideFirstThreeTargetedDivs();
   
-  await sleep(5500);
+  await sleep(9500);
 
   hideFirstThreeTargetedDivs();
 }
